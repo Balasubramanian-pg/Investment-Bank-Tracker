@@ -1,17 +1,4 @@
-# Investment-Bank-Tracker
-Here is the content rewritten into a **structured Business Requirement Document (BRD)** format. This version frames your learnings as business reporting needs and technical requirements — appropriate for handing off to a BI or data engineering team.
-
----
-
-# **Business Requirement Document (BRD)**
-
-## Title: Advanced SQL Reporting Capabilities for Business Insights
-
-**Prepared by:** \[Balasubramanian]
-**Date:** \[29-06-2025]
-**Version:** 1.0
-
----
+# Investment-Bank-Tracker Project
 
 ## **1. Objective**
 
