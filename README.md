@@ -4,13 +4,11 @@
 
 To define the requirements for developing SQL-based analytical reports supporting business use cases involving segmentation, time-based analysis, hierarchical reporting, and performance metrics. This initiative aims to enhance the decision-making capabilities of business stakeholders through accurate, structured, and scalable SQL queries.
 
----
 
 ## **2. Background**
 
 Current business analysis requires complex data transformations, non-standard joins, and advanced aggregations that go beyond basic SQL. There is a need to structure these transformations into reusable, modular logic blocks that can support statistical analysis, business KPIs, and temporal insights.
 
----
 
 ## **3. Functional Requirements**
 
@@ -28,7 +26,6 @@ Current business analysis requires complex data transformations, non-standard jo
 * Detecting product movement across ranks
 * Calculating median value metrics
 
----
 
 ### 3.2 Common Table Expressions (CTEs)
 
@@ -40,7 +37,6 @@ Current business analysis requires complex data transformations, non-standard jo
 * Building a reporting layer on top of denormalized inputs
 * Replacing deeply nested subqueries with maintainable logic
 
----
 
 ### 3.3 Advanced Join Conditions
 
@@ -54,7 +50,6 @@ Current business analysis requires complex data transformations, non-standard jo
 * Historical state comparisons
 * Multi-key customer-to-region mapping
 
----
 
 ### 3.4 Statistical Analysis
 
@@ -68,7 +63,6 @@ Current business analysis requires complex data transformations, non-standard jo
 * Concentration risk measurement
 * Score normalization for dashboards
 
----
 
 ### 3.5 Time Intelligence Logic
 
@@ -84,7 +78,6 @@ Current business analysis requires complex data transformations, non-standard jo
 * Revenue trend comparisons
 * Active users tracking by week/month
 
----
 
 ### 3.6 Aggregation Logic
 
@@ -96,7 +89,6 @@ Current business analysis requires complex data transformations, non-standard jo
 * Revenue split by category
 * Conditional performance metrics for dashboards
 
----
 
 ### 3.7 Business Metrics
 
@@ -112,7 +104,6 @@ Current business analysis requires complex data transformations, non-standard jo
 * Operational exposure monitoring
 * Channel-specific analytics
 
----
 
 ### 3.8 Hierarchical and Cumulative Analysis
 
@@ -125,7 +116,6 @@ Current business analysis requires complex data transformations, non-standard jo
 * Financial instrument maturity ladders
 * Employee progression levels
 
----
 
 ## **4. Technical Requirements**
 
@@ -135,7 +125,6 @@ Current business analysis requires complex data transformations, non-standard jo
 * Support for user-defined functions (UDFs) for statistical logic if needed
 * Optimization for execution time on large datasets (>1M rows)
 
----
 
 ## **5. Non-Functional Requirements**
 
